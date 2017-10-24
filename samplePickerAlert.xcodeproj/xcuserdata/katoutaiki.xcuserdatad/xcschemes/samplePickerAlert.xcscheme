@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6D6AEE7A1F9EF66100ABF119"
+               BuildableName = "samplePickerAlert.app"
+               BlueprintName = "samplePickerAlert"
+               ReferencedContainer = "container:samplePickerAlert.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6D6AEE8E1F9EF66100ABF119"
+               BuildableName = "samplePickerAlertTests.xctest"
+               BlueprintName = "samplePickerAlertTests"
+               ReferencedContainer = "container:samplePickerAlert.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6D6AEE991F9EF66100ABF119"
+               BuildableName = "samplePickerAlertUITests.xctest"
+               BlueprintName = "samplePickerAlertUITests"
+               ReferencedContainer = "container:samplePickerAlert.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "6D6AEE7A1F9EF66100ABF119"
+            BuildableName = "samplePickerAlert.app"
+            BlueprintName = "samplePickerAlert"
+            ReferencedContainer = "container:samplePickerAlert.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "6D6AEE7A1F9EF66100ABF119"
+            BuildableName = "samplePickerAlert.app"
+            BlueprintName = "samplePickerAlert"
+            ReferencedContainer = "container:samplePickerAlert.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "6D6AEE7A1F9EF66100ABF119"
+            BuildableName = "samplePickerAlert.app"
+            BlueprintName = "samplePickerAlert"
+            ReferencedContainer = "container:samplePickerAlert.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
